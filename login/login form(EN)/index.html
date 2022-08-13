@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="leftside">
+            <div class="text-wrapper">
+                <h1>welcome to site</h1>
+            </div>
+        </div>
+        <a href="https://engrmh.ir" class="home-logo">
+            <!-- <img src="./img/favicon.png" alt=""> -->
+        </a>
+        <div class="rightside">
+            <div class="form-container">
+                <div class="show">
+                    <img src="./img/human.png" alt="login-img" class="logo" name="logo">
+                    <label for="logo">Login To Account</label>
+                </div>
+                <form action="./js/script.js" class="form" method="post">
+                    <label for="UserName">UserName / Email / Phone:</label>
+                    <input class="username" type="text" name="UserName" placeholder="UserName / Email / Phone" autocomplete="username" required>
+                    <label for="Password">Password:</label>
+                    <input class="password" type="password" name="Password" placeholder="Password" autocomplete="current-password" required>
+                    <div class="buttom-wrapper">
+                        <button class="login" onclick="login()">Login</button>
+                        <button class="sign">Sign in</button>
+                    </div>
+                    <div class="textInForm">
+                        <a href="" class="forget">Forget Password </a>|
+                        <a href="" class="back"> Back To Home</a>
+                    </div>
+                </form>
+            </div>
+            <a href="../login form(FA)/index.html" class="lang">فا</a>
+        </div>
+</body>
+<script src="./js/script.js"></script>
+</html>
